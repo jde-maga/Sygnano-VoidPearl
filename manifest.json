@@ -1,0 +1,21 @@
+{
+  "name": "VoidPearl",
+  "namespace": "Sygnano",
+  "version_number": "1.0.0",
+  "description": "Void Pearls curse your chosen items",
+  "website_url": "null",
+  "dependencies": [],
+  "extra": {
+    "godot": {
+      "authors": ["Sygnano"],
+      "tags": ["item", "curse", "void", "pearl"],
+      "description_rich": "",
+      "optional_dependencies": [],
+      "load_before": [],
+      "incompatibilities": [],
+      "compatible_mod_loader_version": ["6.2.0"],
+      "compatible_game_version": ["1.1.8.1"],
+      "config_schema": {}
+    }
+  }
+}

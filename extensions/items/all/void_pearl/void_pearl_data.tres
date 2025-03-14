@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/Sygnano-VoidPearl/extensions/items/all/void_pearl/effects/void_pearl_effect_1.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/Sygnano-VoidPearl/extensions/items/all/void_pearl/appearances/void_pearl_app_0.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/Sygnano-VoidPearl/extensions/items/all/void_pearl/void_pearl_icon.png" type="Texture" id=4]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "item_void_pearl"
+unlocked_by_default = true
+icon = ExtResource( 4 )
+name = "ITEM_VOID_PEARL"
+tier = 2
+value = 85
+effects = [ ExtResource( 2 ) ]
+tracking_text = ""
+is_lockable = true
+is_cursed = true
+curse_factor = 100.0
+max_nb = -1
+item_appearances = [ ExtResource( 3 ) ]
+tags = [ "stat_void_pearl" ]
