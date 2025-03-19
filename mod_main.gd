@@ -21,6 +21,9 @@ func install_script_extensions() -> void:
 	
 	ModLoaderMod.install_script_extension(extensions_dir_path.plus_file('singletons/player_run_data.gd'))
 	ModLoaderMod.install_script_extension(extensions_dir_path.plus_file('ui/menus/shop/shop.gd'))
+	ModLoaderMod.install_script_extension(extensions_dir_path.plus_file('ui/menus/shop/item_popup.gd'))
+	ModLoaderMod.install_script_extension(extensions_dir_path.plus_file('ui/menus/shop/coop_item_popup.gd'))
+	ModLoaderMod.install_script_extension(extensions_dir_path.plus_file('ui/menus/shop/coop_shop.gd'))
 
 
 func add_translations() -> void:

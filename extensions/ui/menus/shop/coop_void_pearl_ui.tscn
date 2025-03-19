@@ -6,23 +6,23 @@
 [node name="VoidPearlUI" type="HBoxContainer"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -1721.0
-margin_bottom = -998.0
+margin_right = -1541.0
+margin_bottom = -1040.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_right = 64.0
-margin_bottom = 82.0
-rect_min_size = Vector2( 64, 82 )
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 40 )
 texture = ExtResource( 1 )
 expand = true
 stretch_mode = 6
 
 [node name="Label" type="Label" parent="."]
-margin_left = 68.0
-margin_right = 403.0
-margin_bottom = 82.0
+margin_left = 44.0
+margin_right = 379.0
+margin_bottom = 40.0
 size_flags_vertical = 1
 custom_fonts/font = ExtResource( 2 )
 text = "VOID_PEARL_COUNT"
